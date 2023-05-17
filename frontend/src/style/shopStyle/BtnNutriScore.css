@@ -1,0 +1,86 @@
+.btnNutriScore {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.btnNutriScore > li > button {
+  margin: 0 5vw;
+  height: 45px;
+  padding: 0.3rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 795px) {
+  .btnNutriScore > li > button {
+    margin-top: 70px;
+    margin: 0 2vw;
+    padding: 0;
+    width: 25px;
+  }
+}
+
+.btnNutriScoreLiButton {
+  padding: 0rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btnNutriScore > li > button:hover {
+  box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+
+.btnA {
+  background: rgb(2, 125, 64);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btnB {
+  background: rgb(129, 181, 47);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btnC {
+  background: rgb(246, 197, 6);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btnD {
+  background: rgb(231, 126, 0);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btnE {
+  background: rgb(222, 60, 18);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 550px) {
+  .btnA,
+  .btnB,
+  .btnC,
+  .btnD,
+  .btnE {
+    margin-right: 3rem;
+    padding: 0.3rem;
+  }
+}
